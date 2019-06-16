@@ -1,1 +1,1 @@
-## XAuth - Improving Security and Privacy for Web Applications
+## XAuth - Improving Privacy for Web Applications
