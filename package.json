@@ -1,0 +1,19 @@
+{
+  "name": "xauth",
+  "version": "1.0.0",
+  "description": "A privacy focused authorization framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinavtripathy/XAuth.git"
+  },
+  "author": "Abhinav Tripathy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abhinavtripathy/XAuth/issues"
+  },
+  "homepage": "https://github.com/abhinavtripathy/XAuth#readme"
+}
