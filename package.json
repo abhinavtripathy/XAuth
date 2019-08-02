@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/abhinavtripathy/XAuth/issues"
   },
-  "homepage": "https://github.com/abhinavtripathy/XAuth#readme"
+  "homepage": "https://github.com/abhinavtripathy/XAuth#readme",
+  "dependencies": {
+    "node-forge": "^0.8.5",
+    "window-crypto": "^1.1.0"
+  }
 }
