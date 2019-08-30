@@ -1,7 +1,7 @@
 const forge = require('node-forge');
+let crypto = require('crypto-js')
 
-
-function hash(hashString) {
+function hashNodeForge(hashString) {
 
     let accessToken = forge.md.sha256.create();
     accessToken.update(hashString);
@@ -9,4 +9,12 @@ function hash(hashString) {
 
 }
 
-console.log(hash('abhinav@gmail.com'));
+function hash(hashString) {
+
+    return crypto.SHA256(hashString).toString()
+
+}
+
+console.log(hashNodeForge('abhinav@gmail.com'));
+
+
