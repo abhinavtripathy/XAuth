@@ -2,11 +2,11 @@ module.exports = function(server) {
     //About route
     server.route({
         method: 'GET',
-        path: '/calculator/about',
+        path: '/api/about',
         handler: function (request, h) {
     
             var data = {
-                message: 'Welcome to our Calculator Service'
+                message: 'Welcome to REST API'
             };
     
             return data;
@@ -19,9 +19,9 @@ module.exports = function(server) {
         path: '/calculator/add/{num1}',
         handler: function (request, h) {
 
+            let StringT = request.params.num1
             
-            const StringT = request.params.num1
-            return StringT;
+            return JSON.parse(StringT)
         }
     });
 
