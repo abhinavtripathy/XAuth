@@ -16,12 +16,12 @@ module.exports = function(server) {
     //Add route
     server.route({
         method: 'GET',
-        path: '/calculator/add/{num1}',
+        path: '/api/add/{num1}',
         handler: function (request, h) {
 
             let StringT = request.params.num1
             
-            return JSON.parse(StringT)
+            return StringT;
         }
     });
 
