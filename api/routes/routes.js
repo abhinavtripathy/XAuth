@@ -6,22 +6,35 @@ module.exports = function(server) {
         handler: function (request, h) {
     
             var data = {
-                message: 'Welcome to REST API'
+                message: 'Welcome to XAUth REST API'
             };
     
             return data;
         }
     });
 
+
+    
     //Add route
     server.route({
         method: 'GET',
-        path: '/api/add/{num1}',
+        path: '/api/add/{id}/{client}',
         handler: function (request, h) {
 
-            let StringT = request.params.num1
+            let yee = [1, 2]
+            let StringT = request.params.id
             
-            return StringT;
+            if(StringT == yee[0]) {
+
+                return true;
+
+            }
+            else {
+
+                return false;
+
+            }
+            
         }
     });
 
