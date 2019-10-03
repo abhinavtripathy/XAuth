@@ -6,7 +6,7 @@ module.exports = function(server) {
         handler: function (request, h) {
     
             var data = {
-                message: 'Welcome to REST API'
+                message: 'Welcome to XAUth REST API'
             };
     
             return data;
