@@ -15,3 +15,12 @@ To deploy to Google Cloud:
 `gcloud functions deploy signin --runtime nodejs8 --trigger-http`
 
 `gcloud functions deploy token --runtime nodejs8 --trigger-http`
+
+
+To test the functions:
+
+`https://[gcp-region]-[project-name].cloudfunctions.net/signin`
+
+`https://[gcp-region]-[project-name].cloudfunctions.net/signin`
+
+`https://[gcp-region]-[project-name].cloudfunctions.net/signin`
