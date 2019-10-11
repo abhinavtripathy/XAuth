@@ -1,3 +1,20 @@
+# Node Modules
+
 node_modules/
 
 api/node_modules
+
+auth-server/node_modules
+
+#Internal Documentation 
+
+auth-server/internal-doc.md
+
+#Private keys
+
+auth-server/private.pem
+
+auth-server/public.pem
+
+auth-server/auth.pug
+
