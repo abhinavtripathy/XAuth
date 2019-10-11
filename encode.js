@@ -16,5 +16,3 @@ function hash(hashString) {
 }
 
 console.log(hashNodeForge('abhinav@gmail.com'));
-
-
