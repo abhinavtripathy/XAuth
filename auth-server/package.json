@@ -1,0 +1,14 @@
+{
+  "name": "xauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhinav Tripathy",
+  "license": "MIT",
+  "dependencies": {
+    "escape-html": "^1.0.3"
+  }
+}
