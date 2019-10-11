@@ -19,8 +19,8 @@ To deploy to Google Cloud:
 
 To test the functions:
 
-`https://[gcp-region]-[project-name].cloudfunctions.net/signin`
+`https://[gcp-region]-[project-name].cloudfunctions.net/token`
 
 `https://[gcp-region]-[project-name].cloudfunctions.net/signin`
 
-`https://[gcp-region]-[project-name].cloudfunctions.net/signin`
+`https://[gcp-region]-[project-name].cloudfunctions.net/auth`
