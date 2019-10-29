@@ -2,7 +2,7 @@ const Hapi = require('hapi');
 
 // Store the hosting server and the port 
 const host = 'localhost';
-const port = 3000; 
+const port = 3000;
 
 // Lets create the server here
 const server = Hapi.Server({
