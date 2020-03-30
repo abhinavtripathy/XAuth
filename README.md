@@ -2,7 +2,10 @@
 [![Build Status](https://travis-ci.org/abhinavtripathy/XAuth.svg?branch=master)](https://travis-ci.org/abhinavtripathy/XAuth)
 [![License](http://img.shields.io/badge/License-MIT-brightgreen.svg)](./LICENSE)
 
-Privacy is the focus of how the system should be built on top of OAuth. Taking inspiration from Apple sign in, the framework should tell the client(application) whether the user is authorized to access a particular resource without revealing any user details. A specific example that would be developed is a news site where the framework tells the website whether the user is a paid subscriber or not. In this case no personal information of the user is given to the website. The core idea is to provide the anonymity feature that OAuth currently does not have but should have. This would allow users to choose for more privacy focused login methods and would be helpful for authentication/authorization methods that do not give away any private information. Some other use cases could also be formulated apart from the news site such as online courses sites. 
+Traditionally the OAuth protocol has had no specific privacy preserving mechanisms or options to help users not give away their private information or try to stay anonymous on services. XAuth is an implementation of OAuth that tries to preserve user's privacy while still giving the third party application an anonymous hashed ID to which the application associated all the user attributes to. A specific example of this is a news site who doesn't need to know you are but needs to know attributes such as paid or unpaid subscrober. Some more upcoming features of XAuth include having the ability to share your information if the user feels they want to share their information and also being able to choose what part of their information can be shared such as name, age, email. 
+
+XAUth also has a mail proxy server hoste on the identity provider end to porxy email requests from the application to the user to allow for a higher level of security and anonymity. 
+
 <!-- 
 ### Auth Server Setup 
 
