@@ -1,6 +1,7 @@
 ## XAuth - Improving Privacy for Web Applications
 [![Build Status](https://travis-ci.org/abhinavtripathy/XAuth.svg?branch=master)](https://travis-ci.org/abhinavtripathy/XAuth)
 [![License](http://img.shields.io/badge/License-MIT-brightgreen.svg)](./LICENSE)
+[Design Document](https://docs.google.com/document/d/1risPVaKwMGAxjHQHAPwbsZ5wf7VXmoseCP-FbvIDilA/edit?usp=sharing)
 
 Traditionally the OAuth protocol has had no specific privacy preserving mechanisms or options to help users not give away their private information or try to stay anonymous on services. XAuth is an implementation of OAuth that tries to preserve user's privacy while still giving the third party application an anonymous hashed ID to which the application associated all the user attributes to. A specific example of this is a news site who doesn't need to know you are but needs to know attributes such as paid or unpaid subscrober. Some more upcoming features of XAuth include having the ability to share your information if the user feels they want to share their information and also being able to choose what part of their information can be shared such as name, age, email. 
 
