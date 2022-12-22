@@ -18,7 +18,7 @@
   "homepage": "https://github.com/abhinavtripathy/XAuth#readme",
   "dependencies": {
     "crypto-js": "^3.1.9-1",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "node-forge": "^0.8.5",
     "window-crypto": "^1.1.0"
   }
